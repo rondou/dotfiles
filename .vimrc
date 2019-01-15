@@ -102,8 +102,8 @@ endif
 if (&t_Co > 255 || has("gui_running"))
     let g:solarized_termcolors = 256
     let g:solarized_termtrans = 1
-    set background=light
-    colorscheme solarized
+    " set background=light
+    colorscheme holokai
 endif
 
 set number        " always show line numbers
